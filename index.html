@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <!-- Add Font Awesome for icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet">
+    <link rel="icon" href="./photos/ecom.jpeg">
+  </head>
+
+  <body class="mt-2">
+    <div class="border-6 rounded-full mt-2 bg-[#31473A]">
+      <div class="flex justify-center p-2">
+        <a href="index.html"><img
+          src="./photos/List-of-AI-Tools.jpg"
+          class="h-20 border-2 rounded-4xl :h-20"></a>
+      </div>
+      <div class="flex justify-center">
+        <h1 class=" font-bold p-1 text-2xl">AI TOOLS</h1></div>
+      </div>
+     
+      <div class="flex justify-center">
+    <div class="relative mt-4">
+      <input id="sitem"
+        type="text"
+        placeholder="Search Tool Name"
+        class="p-1.5 border-4 rounded-full w-full pl-10"
+      />
+      <!-- Add Font Awesome Search Icon -->
+      <i
+        class="fas fa-search absolute  left-3 top-1/2 transform -translate-y-1/2 text-gray-500"
+      ></i>
+    </div>
+    <button class="ml-10"><img src="./photos/dark_mode.png" onclick="mode();" class="h-10 mt-4 animate-pulse"></button>
+  </div>
+  
+    <!--items showing using js-->
+    
+    <div class="flex flex-wrap space-y-8 justify-around bg-[#00246B] rounded-4xl shadow-2xl p-7 mt-4 border-6 ml-6 mr-6" id="showsitems">
+    </div>
+    <div align="center" id="message" class="font-bold text-xl mb-2"></div>
+    <script  src="/scripts/nscript.js"></script>
+  </body>
+</html>
