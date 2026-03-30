@@ -1,4 +1,4 @@
-
+// js
 function mode() {
   // Get the body element
   const body = document.body;
